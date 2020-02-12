@@ -1,0 +1,63 @@
+body {
+margin: 0%;
+}
+
+.page {
+display: flex;
+}
+
+.sidebar {
+position: relative;
+display: block;
+float: left;
+width: 25%;
+background-color: rgb(94, 91, 91);
+padding: 20px;
+color: white;
+height: 47vw;
+}
+
+.main {
+display: block;
+float: left;
+width: 75%;
+padding: 20px;
+}
+
+.main h1 {
+display: block;
+padding: 10px;
+}
+
+.quote {
+display: block;
+float: left;
+background-color: wheat;
+}
+
+.nav li {
+list-style-type: none;
+padding-bottom: 20px;
+}
+
+.info {
+display: block;
+float: right;
+padding: 20px;
+}
+
+.info p {
+display: block;
+float: right;
+}
+
+.copyright {
+position: absolute;
+color: lightgray;
+padding-bottom: 20px;
+bottom: 0%;
+}
+
+.litegray {
+color: lightgray;
+}
