@@ -3,9 +3,14 @@ body {
 margin: 0%; 
 }
 
+p {
+    font-weight: 300;
+}
+
 .hero {
 background-image: url("img/atl.png");
-color: white;
+background-position: center;
+color: lightgray;
 }
 
 .nav {
@@ -33,6 +38,9 @@ justify-content: center;
 .info h1 {
 display: flex;
 justify-content: center;
+font-size: 50px;
+font-weight: 300;
+color: white;
 }
     
 .info p {
@@ -40,6 +48,7 @@ display: flex;
 justify-content: center;
 text-align: center;
 padding-bottom: 30px;
+color: lightgray;
 }
 
 .arrow {
@@ -56,7 +65,10 @@ padding-bottom: 100px;
 display: flex;
 justify-content: center;
 padding-top: 20px;
+}
 
+.title h1 {
+font-weight: 400;
 }
 
 .cards {
@@ -96,6 +108,7 @@ justify-content: center;
 .cards h1 {
 display: flex;
 justify-content: center;
+font-weight: 400;
 }
 
 .cards p {
@@ -111,7 +124,7 @@ background-color: rgb(37, 35, 35);
 display: flex;
 justify-content: center;
 padding-top: 30px;
-color: white;
+color: lightgray;
 }
 
 .nav2 li {
