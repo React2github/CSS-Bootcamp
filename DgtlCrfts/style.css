@@ -1,47 +1,51 @@
 
 body {
-margin: 0%;
+margin: 0%; 
 }
 
 .hero {
 background-image: url("img/atl.png");
 color: white;
-padding-bottom: 50px;
 }
 
 .nav {
 display: flex;
 justify-content: flex-end;
 padding-right: 20px;
+margin-right: 100px;
 }
 
 .nav li {
 display: inline;
-padding-right: 10px;
+padding-right: 30px;
+text-transform: uppercase;
 }
 
-
 .info {
-position: relative;
+padding-top: 20px;
+}
+
+.image {
+display: flex;
+justify-content: center;
 }
 
 .info h1 {
 display: flex;
 justify-content: center;
-margin-top: 60px;
 }
     
 .info p {
 display: flex;
 justify-content: center;
+text-align: center;
 padding-bottom: 30px;
 }
 
 .arrow {
-position: absolute;
-left: 50%;
-top: 100%;
-bottom: 0;
+display: flex;
+justify-content: center;
+padding-bottom: 10px;
 }
 
 .main {
@@ -58,32 +62,66 @@ padding-top: 20px;
 .cards {
 display: flex;
 justify-content: center;
-padding-top: 20px;
+padding-top: 50px;
+}
+
+.container-users {
+padding-right: 50px;
+}
+
+.container-hash {
+padding-right: 50px;
+}
+
+.container-money {
+padding-right: 50px;
+}
+
+.users {
+display: flex;
+justify-content: center;
+}
+
+
+.hash {
+display: flex;
+justify-content: center;
+}
+
+.money {
+display: flex;
+justify-content: center;
+}
+
+.cards h1 {
+display: flex;
+justify-content: center;
 }
 
 .cards p {
-margin-right: 50px;
+display: flex;
+text-align: center;
+}
+
+.footer {
+background-color: rgb(37, 35, 35);
 }
 
 .nav2 {
 display: flex;
 justify-content: center;
-padding-top: 50px;
-padding-right: 20px;
+padding-top: 30px;
 color: white;
 }
 
 .nav2 li {
 display: inline;
 padding-right: 30px;
+text-transform: uppercase;
+font-size: 18px;
 }
 .copyright {
 display: flex;
 justify-content: center;
 color: white;
-}
-
-.footer {
-background-color: black;
-padding-bottom: 50px;
 }
