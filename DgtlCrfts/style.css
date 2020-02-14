@@ -66,7 +66,7 @@ padding-top: 50px;
 }
 
 .container-users {
-padding-right: 50px;
+padding-right: 40px;
 }
 
 .container-hash {
@@ -124,4 +124,20 @@ font-size: 18px;
 display: flex;
 justify-content: center;
 color: white;
+}
+
+@media  (max-width: 1000px) {
+.cards { 
+display: block;
+}
+.cards p {
+justify-content: center;
+}
+ .container-hash {
+padding-right: 0%;
+}
+
+.container-users {
+padding-right: 0%;
+}
 }
